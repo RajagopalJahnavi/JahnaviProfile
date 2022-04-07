@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .header{
-    height:30%;
+    height:20%;
     width: 100%;
     background-image: url('Images/bg.jpg');
     background-size: cover;
@@ -15,39 +15,38 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 3%;
-    padding-right: 1%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 .logo{
-    height: 40px;
-    width: 40px;
-    color:yellow;
-    font-size: 30px;
+    height: 120px;
+    width: 120px;
+    color: yellow;
+    font-size: 90px;
     letter-spacing: 1px;
     cursor: pointer;
-    background-color:black;
+    background-color: black;
     border-radius: 50%;
     text-align: center;
-}
-nav img{
-    width: 14%;
-    border-radius: 50%;
-    margin-left: 36%;
-    margin-top: -2.5%;
+    margin-top: -1.5%;
+    margin-left:4%;
 }
 nav ul li{
     list-style-type:none;
     display: inline-block;
-    padding:10px 25px;
+    padding-left: 140px;
+    padding-top: 35px;
 }
 nav ul li a{
     color: yellow;
     text-decoration: none;
     font-weight: bold;
+    font-size: 25px;
     text-transform: capitalize;
     background-color:black;
     border-radius:5px;
     box-shadow: 0px 0px 5px #000;
+    margin-top: 5%;
 }
 nav ul li a:hover{
     color:white;
@@ -92,7 +91,7 @@ nav ul li a:hover{
 
 .skills{
     width:100%;
-    height: 30%;
+    height: 40%;
     background-color: burlywood;
 }
 .details{
@@ -110,9 +109,10 @@ nav ul li a:hover{
 }
 .head{
     font-size: 46px;
-    margin-left: 45.5%;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: rgb(58, 38, 2);
 }
 #slider{
     overflow: hidden;
@@ -144,11 +144,4 @@ nav ul li a:hover{
     background-color: burlywood;
     padding: 30px;
 }
-.heading{
-    font-size: 46px;
-    margin-left: 45.5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 
