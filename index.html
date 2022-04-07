@@ -8,20 +8,20 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div class="header">
+        <div id="header" class="header">
             <nav>
                 <h2 class="logo">RJ</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <!--About me-->
-        <section class="about">
+        <section id="about" class="about">
             <div class="main">
                 <img src="Images/JAHNAVI.jpeg" height="300" width="300" alt="Profile Image" title="Jahnavi">
                 <div class="about-text">
@@ -31,7 +31,7 @@
             </div>
         </section>
         <!--Skills-->
-        <div class="skills">
+        <div id="skills"class="skills">
             <h1 class=head>Skills</h1>
             <div class="details">
                 <img src="Images\c logo.png" height="120px" width="120px" alt="C programming" title="C programming"/>
@@ -43,17 +43,17 @@
             </div>
         </div>
         <!--Projects-->
-        <div class="projects">
+        <div id="projects" class="projects">
             <h1 class="head">Projects</h1>
             <div id="slider">
                 <figure>
-                    <a href="https://rajagopaljahnavi.github.io/JahnaviFirstProject/"><img src="Images/RNJ.png" alt="FirstProject"></a>
-                    <a href="https://rajagopaljahnavi.github.io/JahnaviSecondProject/"><img src="Images/CARTway.png" alt="SecondProject"></a>
+                    <a href="https://rajagopaljahnavi.github.io/JahnaviFirstProject/" target="_blank"><img src="Images/RNJ.png" alt="FirstProject"></a>
+                    <a href="https://rajagopaljahnavi.github.io/JahnaviSecondProject/" target="_blank"><img src="Images/CARTway.png" alt="SecondProject"></a>
                 </figure>
             </div>
         </div>
         <!--Contact-->
-        <div class="contact">
+        <div id="contact" class="contact">
             <div class="map">
                 <h1 class="head">
                     Location
@@ -62,5 +62,25 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7727158724165!2d78.5714538507738!3d17.42269178799885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9eae391d349f%3A0x4d6c96bd2afbc47c!2sMallaiah%20Nagar%20Colony%20Park!5e0!3m2!1sen!2sin!4v1646111581530!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
+        <!--Footer-->
+        <footer>
+            <div class="social">
+                <div class="logos">
+                    <span class="links">Follow me on!</span>
+                    <a href="https://github.com/RajagopalJahnavi" target="_blank">
+                    <img src="Images\github logo.png" alt="Github" class="slogo"/>  
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajagopal-jahnavi-0692b1232/" target="_blank">
+                    <img src="Images\linkedin logo.png" alt="Linkedin" class="slogo"/>  
+                    </a>
+                    <a href="https://stackoverflow.com/users/18259265/jahnavi" target="_blank">
+                    <img src="Images\stackoverflow logo.png" alt="Linkedin" class="slogo"/>  
+                    </a>
+                </div>
+                <h3 id="htext">
+                    &copy; RJ Resume
+                </h3>
+            </div>
+        </footer>
     </body>
 </html>

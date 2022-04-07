@@ -145,3 +145,31 @@ nav ul li a:hover{
     padding: 30px;
 }
 
+.social{
+    background-color: bisque;
+    height: 20%;
+    width: 100%;
+    padding: 8px;
+}
+.logos{
+    margin-left: 40%;
+}
+.logos>a{
+    text-decoration: none;
+}
+.slogo{
+    height: 30px;
+    width: 30px;
+}
+#htext{
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 2%;
+}
+.links{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
