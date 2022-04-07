@@ -125,11 +125,16 @@ nav ul li a:hover{
     animation: 15s slider infinite;
 }
 #slider figure img{
-    height: 80%;
-    width:40%;
+    height: 75%;
+    width:10%;
     float: left;
-    padding: 50px;
+    
 }
-@ke
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    
+}
 
 
