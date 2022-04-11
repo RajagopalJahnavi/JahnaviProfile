@@ -52,6 +52,8 @@ nav ul li a:hover{
     color:white;
     transition: 1s;
 }
+
+/*About me*/
 .about{
     width:100%;
     padding: 100px 0px;
@@ -83,12 +85,12 @@ nav ul li a:hover{
 }
 .about-text p{
     color:rgb(88 33 33);
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 22px;
     margin-bottom: 45px;
 }
 
+/*Skills*/
 .skills{
     width:100%;
     height: 40%;
@@ -101,12 +103,6 @@ nav ul li a:hover{
     display: inline-block;
     padding-top: 10px;
 }
-
-.projects{
-    width:100%;
-    height: 120%;
-    background-color: bisque;
-}
 .head{
     font-size: 46px;
     text-align: center;
@@ -114,30 +110,57 @@ nav ul li a:hover{
     padding-bottom: 10px;
     color: rgb(58 2 2);
 }
-#slider{
-    overflow: hidden;
+
+/*Projects*/
+.projects{
+    background-color:bisque;
+    height: 110%;
+    width:100%;
 }
-#slider figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
+.content{
+    display:flex;
+    justify-content:space-evenly;
 }
-#slider figure img{
-    padding: 50px;
-    width:20%;
-    float: left;
-    
+.image{
+    height: 500px;
+    width:600px;
+    box-shadow: 10px 25px 25px rgb(31 28 24);
+    border-radius: 15px;
+    border-style:solid;
+    border-color:#000000bf;
 }
-@keyframes slider{
-    50%{
-        left: -100%;
-    }
-    100%{
-        right:100%;
-    }
+.image:hover{
+    transform: scale(1.025);
 }
+.caption{
+    padding: 10px;
+    background:rgba(0, 0, 0, 88%);
+    box-sizing:border-box;
+    border-radius: 15px;
+}
+.caption h2{
+    color:#fff;
+    font-size:35px;
+}
+.caption p{
+    color:#fff;
+    font-size: 16px;
+}.btn{
+    border:none;
+    background-color:rgb(2, 161, 2);
+    font-size:14px;
+    cursor:pointer;
+    display:inline-block;
+    border-radius:20px;
+    height: 20px;
+    width:90px;
+    margin-top:2%;
+}
+.btn:hover{
+    background:rgb(4, 253, 4);
+}
+
+/*Contact*/
 .contact{
     width:100%;
     height: 70%;
@@ -145,6 +168,7 @@ nav ul li a:hover{
     padding: 30px;
 }
 
+/*Footer*/
 .social{
     background-color: bisque;
     height: 20%;
