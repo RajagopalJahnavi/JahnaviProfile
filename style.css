@@ -211,8 +211,11 @@ nav ul li a:hover{
         height:auto;
         display:inline-block;
     }
+    .projects{
+        height: auto;
+    }
     .content{
-        padding-top: 40px;
+        padding-bottom: 50px;
     }
     .contact{
         height: auto;
@@ -233,9 +236,6 @@ nav ul li a:hover{
     .details{
         margin-left: 10%;
     }
-    .projects{
-        height:100%;
-    }
     .image{
         width:480px;
     }
@@ -254,9 +254,6 @@ nav ul li a:hover{
     .details{
         margin-left: 6%;
     }
-    .projects{
-        height:90%;
-    }
     .image{
         width:400px;
     }
@@ -270,9 +267,6 @@ nav ul li a:hover{
     }
     .details{
         margin-left: auto;
-    }
-    .projects{
-        height:85%;
     }
     .image{
         width:360px;
@@ -306,9 +300,6 @@ nav ul li a:hover{
 @media screen and (max-width:620px) {
     .image{
         width:250px;
-    }
-    .projects{
-        height:80%;
     }
     .caption p {
         font-size: 14px;
