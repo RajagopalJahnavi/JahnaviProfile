@@ -197,3 +197,142 @@ nav ul li a:hover{
     text-align: center;
 }
 
+@media screen and (max-width:1364px){
+    .header{
+        height:auto;
+    }
+    nav ul li {
+        padding-top: 5px;
+    }
+    .skills{
+        height: auto;
+    }
+    .image{
+        height:auto;
+        display:inline-block;
+    }
+    .content{
+        padding-top: 40px;
+    }
+    .contact{
+        height: auto;
+    }
+    .social{
+        height: auto;
+    }
+}
+@media screen and (max-width:1220px) {
+    .details{
+        margin-left:16%;
+    }
+    .image{
+        width:520px;
+    }
+}
+@media screen and (max-width:1060px){
+    .details{
+        margin-left: 10%;
+    }
+    .projects{
+        height:100%;
+    }
+    .image{
+        width:480px;
+    }
+    .logos {
+        margin-left: 38%;
+    }
+}
+@media screen and (max-width:980px) {
+    .about img{
+        width:200px;
+    }
+    .about-text p{
+        line-height:30px;
+        font-size: 18px;
+    }
+    .details{
+        margin-left: 6%;
+    }
+    .projects{
+        height:90%;
+    }
+    .image{
+        width:400px;
+    }
+    .logos {
+        margin-left: 37%;
+    }
+}
+@media screen and (max-width:815px) {
+    .about img{
+        width:150px;
+    }
+    .details{
+        margin-left: auto;
+    }
+    .projects{
+        height:85%;
+    }
+    .image{
+        width:360px;
+    }
+    .logos {
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:760px) {
+    .about img{
+        width:100px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .image{
+        width:330px;
+    }
+    .logos {
+        margin-left: 33%;
+    }
+}
+@media screen and (max-width:680px) {
+    .about-text p{
+        font-size: 14px;
+    }
+    .image{
+        width:300px;
+    }
+}
+@media screen and (max-width:620px) {
+    .image{
+        width:250px;
+    }
+    .projects{
+        height:80%;
+    }
+    .caption p {
+        font-size: 14px;
+    }
+    .logos {
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width:550px) {
+    .image{
+        width:240px;
+    }
+    .caption h2 {
+        font-size: 30px;
+    }
+    .caption p {
+        font-size: 12px;
+    }
+    .logos {
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:530px) {
+    .logos {
+        margin-left: 27%;
+    }
+}
